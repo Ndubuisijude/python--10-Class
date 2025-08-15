@@ -1,0 +1,92 @@
+program
+programing
+developer
+development
+coding
+
+
+
+
+frontend - next, code
+backend - django
+web designer - flow, designer
+legal -
+pr team
+database
+system design analyst
+caching cache
+print majesty  
+
+python is an interpreted language
+maching language is a low level language
+
+c is a complied language
+python - high leve language
+
+
+variable type
+name of variable
+value
+
+name of the variable
+
+ide
+means intergrated development environment
+
+
+# second class
+
+to open a terminal
+control + shift backit
+
+to exit ()
+control j come and exit
+
+programing || coding
+program. || coder
+
+version control system _
+keyboard shortcuts _
+
+classificatiion
+
+1: how they run
+compiler
+interpreter
+
+2:how they model
+oop _ Object oriented programing
+functional programing
+
+assignment
+10 datatypes
+
+third class on 8th august 2025
+
+datatype
+int, boolean, byte, float, char
+list, string, tuple, sets, construct, none
+
+; end of line indicator or indentifier
+
+f means formated string
+
+read about bash
+
+= - assignment
+== comparison 
+
+download git
+create an account on github
+
+third class 11th august 2025
+datatype
+name of variable
+
+
+fourth class 14th august 2025
+
+                        data types
+            primitive data types || no-primitive data types
+
+assignment ================
