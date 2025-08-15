@@ -51,3 +51,5 @@ sports_name = input("what is your sports name?: ")
 school = input("what is your school?: ")
 
 print(f"Hello, my name is {name} and i am a {gender} who loves {sports_name} and i am a student at {school}")
+
+
