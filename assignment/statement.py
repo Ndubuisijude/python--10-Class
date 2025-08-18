@@ -49,4 +49,4 @@ def calculator():
 # Run the calculator
 calculator()
 
-    
+# correction on if statements / assignment 2
