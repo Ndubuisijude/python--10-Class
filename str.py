@@ -59,5 +59,6 @@ print(f"upper {name.upper()}")
 #Add add
 
 text = "This is a String of text"
-print(text)
-print(text.casefold())
+text_b = "debbie"
+text_count = text.lower().count("t")
+print(text_count)

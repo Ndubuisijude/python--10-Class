@@ -60,7 +60,7 @@ num1 = int(input("enter your first number: "))
 num2 = int(input("enter your second number: "))
 
 #operation input
-op = input("enter your operation: sum \n difference \n quotient \n product \n ")
+op = input("enter your operation: sum \n difference \n quotient \n product \n ").lower()
 
 #sum, difference, quotient, product
 sum = num1 + num2
@@ -70,16 +70,16 @@ product = num1 * num2
 
 # condition statements
 
-if (op == "sum"):
+if (op.lower() == "sum"):
     print(f"this is the sum: {sum}")
-elif (op == "difference"):
+elif (op.lower() == "difference"):
     print(f"this is the difference of two numbers: {difference}")
-elif (op == "quotient"):
+elif (op.lower() == "quotient"):
     if (num2 == 0):
         print("undefined")
     else:
         print(f"this is the quotient of two numbers: {quotient}")
-elif (op == "product"):
+elif (op.lower() == "product"):
     print(f"this is the product of two numbers: {product}")
 else:
     print("invalid operation")
@@ -94,7 +94,7 @@ num1 = int(input("enter your first number: "))
 num2 = int(input("enter your second number: "))
 
 #operation input
-op = input("enter your operation: sum \n difference \n quotient \n product \n ")
+op = input("enter your operation: sum \n difference \n quotient \n product \n ").lower()
 
 #sum, difference, quotient, product
 sum = num1 + num2
@@ -104,13 +104,13 @@ product = num1 * num2
 
 # condition statements
 
-if (op == "sum"):
+if (op.lower() == "sum"):
     print(f"this is the sum: {sum}")
-elif (op == "difference"):
+elif (op.lower() == "difference"):
     print(f"this is the difference of two numbers: {difference}")
-elif (op == "quotient"):
+elif (op.lower() == "quotient"):
     print(f"this is the quotient of two numbers: {quotient}")
-elif (op == "product"):
+elif (op.lower() == "product"):
     print(f"this is the product of two numbers: {product}")
 else:
     print("invalid operation")
