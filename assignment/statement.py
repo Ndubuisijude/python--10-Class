@@ -60,7 +60,41 @@ num1 = int(input("enter your first number: "))
 num2 = int(input("enter your second number: "))
 
 #operation input
-op = input("enter your operation: ")
+op = input("enter your operation: sum \n difference \n quotient \n product \n ")
+
+#sum, difference, quotient, product
+sum = num1 + num2
+difference= num1 - num2
+quotient = num1 / num2 
+product = num1 * num2
+
+# condition statements
+
+if (op == "sum"):
+    print(f"this is the sum: {sum}")
+elif (op == "difference"):
+    print(f"this is the difference of two numbers: {difference}")
+elif (op == "quotient"):
+    if (num2 == 0):
+        print("undefined")
+    else:
+        print(f"this is the quotient of two numbers: {quotient}")
+elif (op == "product"):
+    print(f"this is the product of two numbers: {product}")
+else:
+    print("invalid operation")
+
+print("end of program")
+
+
+
+
+# user inputs, num1 and num2
+num1 = int(input("enter your first number: "))
+num2 = int(input("enter your second number: "))
+
+#operation input
+op = input("enter your operation: sum \n difference \n quotient \n product \n ")
 
 #sum, difference, quotient, product
 sum = num1 + num2

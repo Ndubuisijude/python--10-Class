@@ -51,3 +51,13 @@ txt = "we are the so_called \"vikings\" from the north"
 
 print(txt)
 # the boys are "swagging"
+
+name = "jude"
+
+print(f"normal {name}")
+print(f"upper {name.upper()}")
+#Add add
+
+text = "This is a String of text"
+print(text)
+print(text.casefold())
