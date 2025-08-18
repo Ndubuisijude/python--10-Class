@@ -50,3 +50,33 @@ def calculator():
 calculator()
 
 # correction on if statements / assignment 2
+
+"""
+simple calculator, that gets two user int inputs and operation returns sum, diff, quotient, product
+"""
+
+# user inputs, num1 and num2
+num1 = int(input("enter your first number: "))
+num2 = int(input("enter your second number: "))
+
+#operation input
+op = input("enter your operation: ")
+
+#sum, difference, quotient, product
+sum = num1 + num2
+difference= num1 - num2
+quotient = num1 / num2 
+product = num1 * num2
+
+# condition statements
+
+if (op == "sum"):
+    print(f"this is the sum: {sum}")
+elif (op == "difference"):
+    print(f"this is the difference of two numbers: {difference}")
+elif (op == "quotient"):
+    print(f"this is the quotient of two numbers: {quotient}")
+else:
+    print(f"this is the product of two numbers: {product}")
+
+print("end of program")
