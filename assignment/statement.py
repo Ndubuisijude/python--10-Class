@@ -76,7 +76,9 @@ elif (op == "difference"):
     print(f"this is the difference of two numbers: {difference}")
 elif (op == "quotient"):
     print(f"this is the quotient of two numbers: {quotient}")
-else:
+elif (op == "product"):
     print(f"this is the product of two numbers: {product}")
+else:
+    print("invalid operation")
 
 print("end of program")
