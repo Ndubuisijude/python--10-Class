@@ -1,0 +1,21 @@
+arithmatic operators
+
++ add
+_ substract
+/ divide
+* multiple
+% modulus
+** exponent
+
+comparison operators
+> greater than
+< less than
+== comparison
+!> not greater than
+!< not less than
+!= not equal to
+<= less than or equal to
+>= greater than or equal to
+
+|| or
+&& and
