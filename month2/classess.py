@@ -19,3 +19,4 @@ print(user1.nationality)
 print(user1.sex)
 print(user1.email)
 print(user1.phone_number)
+
