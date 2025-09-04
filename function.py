@@ -65,23 +65,23 @@
 # checkStock(bakerylist)
 
 
-classList = ["nenye", "actress", "despina", "kamsy", "somto", "sanctus", " chisom", "irene", "pascal", "jude", "daniel", "chiemerie", "kosi"]
+# classList = ["nenye", "actress", "despina", "kamsy", "somto", "sanctus", " chisom", "irene", "pascal", "jude", "daniel", "chiemerie", "kosi"]
 
-def school(list):
-   for student in list:
-      if student == "jude":
-         print("Found Jude!")
-      else:
-         print("Not Jude")
-school(classList)
+# def school(list):
+#    for student in list:
+#       if student == "jude":
+#          print("Found Jude!")
+#       else:
+#          print("Not Jude")
+# school(classList)
 
-# def add2():
-#     num1 = 10
-#     num2 = 20
-#     sum = num1 + num2
-#     return sum
+def add2(num1, /):
+    num2 = 20
+    sum = num1 + num2
+    return sum
 
-# thesum = add2()
-# print(thesum)
+thesum = add2(5)
+print(thesum)
+
 
 
