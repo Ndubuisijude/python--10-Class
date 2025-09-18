@@ -34,6 +34,10 @@ class User:
     # nationality = "ibiza"
     # email = "chichi@gmail.com"
     # phone = "77"
+
+    """
+    a constructor to get user data
+    """
     def __init__(self,firstname, lastname, age, sex, nationality, email, phone):
         self.firstname = firstname
         self.lastname = lastname
@@ -42,10 +46,44 @@ class User:
         self.nationality = nationality
         self.email = email
         self.phone = phone
+
+
+    """
+    method to return first name
+    """
+    def print_firstname(self):
+        print(self.firstname)
+
+    def print_lastname(self):
+        print(self.lastname)
+
+    def print_age(self):
+        print(self.age)
+
+    def print_sex(self):
+        print(self.sex)
+
+    def print_nationality(self):
+        print(self.nationality)
+
+    def print_email(self):
+        print(self.email)
+
+    def print_phone(self):
+        print(self.phone)
 #object of the class User
 user1 = User("majesty", "chibuikem", 30, "gay", "ibiza", "chichi@gmail.com", 7777)
-print(user1.firstname)
+userDaniel = User("Daniel", "Onyenta", 12, "child", "israel", "danielOs@gmail.com", 8888)
 
+userMajesty = user1
+userMajesty.print_firstname()
+userDaniel.print_firstname()
+userMajesty.print_lastname()
+userMajesty.print_age()
+userMajesty.print_sex()
+userMajesty.print_nationality()
+userMajesty.print_email()
+userMajesty.print_phone()
 
 
 # print(user1.firstname)
@@ -55,3 +93,4 @@ print(user1.firstname)
 # print(user1.nationality)
 # print(user1.email)
 # print(user1.phone)
+print(userMajesty.phone)
