@@ -2,6 +2,7 @@
 creating a class game called sport and no in a teams and team constructor
 """
 class Games:
+    # constructor
     def __init__(self, name, num_teams, num_in_team):
         self.name = name
         self.num_teams = num_teams
