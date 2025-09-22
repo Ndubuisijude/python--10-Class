@@ -191,3 +191,48 @@ while (choice == "y"):
         print("invalid operation")
 
     choice = input("do you want to continue: y to continue or any other key to quit?")
+
+""""
+main.py
+inputModule - get all the input - num1, num2, op
+functionsModule - add, div, sub, mult functions
+logicModule - if 
+
+
+
+Main.py
+
+while:
+    inputModule.getnum1()
+    inputModule.getnum2()
+    inputModule.getOperation()
+
+    logicModule.checkOp(op)
+
+
+___________________________
+
+
+inputModule.py
+def getnum1()
+def getnum2()
+def getOperation
+
+
+_____________________________
+
+functionModule.py
+
+def add()
+def sub()
+def div()
+def multi()
+
+
+_____________________________
+
+logicModule.py
+if(op.lower == "add"):
+    functionModule.add()
+
+"""
