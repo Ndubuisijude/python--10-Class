@@ -2,7 +2,7 @@
 human class
 constructor - name, five senses, limbs, skin tone, height
 methods -walking, talking
-"""
+# """
 
 class Human:
     def __init__(self, name, eyes, ears, nose, tongue, skin, limbs, skinTone, height):
